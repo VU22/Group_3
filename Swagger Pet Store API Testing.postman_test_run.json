@@ -1,0 +1,517 @@
+{
+	"id": "4eac3e54-68c7-42a3-ae1f-3d5d3e7fa9ef",
+	"name": "Swagger Pet Store API Testing",
+	"timestamp": "2023-09-10T07:31:12.456Z",
+	"collection_id": "29559386-9817d168-88af-491f-b821-8550701a27fa",
+	"folder_id": 0,
+	"environment_id": "29559386-e2a3c0e7-2566-48f2-9609-da138ec51ef6",
+	"totalPass": 45,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-10T07:31:10.136Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "823eda84-556c-4f4a-bf86-0b911f24a354",
+			"name": "Create a user",
+			"url": "https://petstore.swagger.io/v2/user?Authorization =AUTH_VALUE",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true,
+				"Content-Type header is application/json": true,
+				"Valid JSON structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Valid JSON structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				120
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true,
+					"Content-Type header is application/json": true,
+					"Valid JSON structure": true
+				}
+			]
+		},
+		{
+			"id": "940d2a99-3dcb-4d9f-81c8-ab7354ab212c",
+			"name": "Get info about a user",
+			"url": "https://petstore.swagger.io/v2/user/Viktoria?Authorization =AUTH_VALUE",
+			"time": 118,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Valid JSON structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Valid JSON structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				118
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Valid JSON structure": true
+				}
+			]
+		},
+		{
+			"id": "545d0998-96a4-425d-b062-57eb602ce1b7",
+			"name": "Update an existing user's information",
+			"url": "https://petstore.swagger.io/v2/user/Viktoria?Authorization =AUTH_VALUE",
+			"time": 118,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true,
+				"Content-Type header is application/json": true,
+				"Valid JSON structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Valid JSON structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				118
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true,
+					"Content-Type header is application/json": true,
+					"Valid JSON structure": true
+				}
+			]
+		},
+		{
+			"id": "b629aa11-700a-4e90-bf2e-2ca3e79e893c",
+			"name": "Login a user",
+			"url": "https://petstore.swagger.io/v2/user/login?username=Viktoria&password=0000&Authorization =AUTH_VALUE",
+			"time": 118,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true,
+				"Valid JSON structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Valid JSON structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				118
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true,
+					"Valid JSON structure": true
+				}
+			]
+		},
+		{
+			"id": "a233d1bc-c7eb-43a9-bec1-6a524c6b9c32",
+			"name": "Logout a user",
+			"url": "https://petstore.swagger.io/v2/user/logout?Authorization =AUTH_VALUE",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true,
+				"Valid JSON structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Valid JSON structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				119
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true,
+					"Valid JSON structure": true
+				}
+			]
+		},
+		{
+			"id": "d1c27d88-c064-4132-8d02-d3d8e9e5a194",
+			"name": "Create a pet",
+			"url": "https://petstore.swagger.io/v2/pet?Authorization =AUTH_VALUE",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true,
+				"Content-Type header is application/json": true,
+				"Validate id, category, name, and status fields": true,
+				"Assert petID": true,
+				"Assert petName": true,
+				"Valid JSON structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate id, category, name, and status fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Assert petID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Assert petName": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Valid JSON structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true,
+					"Content-Type header is application/json": true,
+					"Validate id, category, name, and status fields": true,
+					"Assert petID": true,
+					"Assert petName": true,
+					"Valid JSON structure": true
+				}
+			]
+		},
+		{
+			"id": "24bfcb21-37a6-43dd-b2d0-2414f0098a43",
+			"name": "Get info by petID",
+			"url": "https://petstore.swagger.io/v2/pet/1?Authorization =AUTH_VALUE",
+			"time": 162,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true,
+				"Valid JSON structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Valid JSON structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				162
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true,
+					"Valid JSON structure": true
+				}
+			]
+		},
+		{
+			"id": "cd3b6247-7c43-4510-acc3-e740d734b761",
+			"name": "Order",
+			"url": "https://petstore.swagger.io/v2/store/order?Authorization =AUTH_VALUE",
+			"time": 117,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true,
+				"Content-Type header is application/json": true,
+				"Validate id, petID, and quantiti fields": true,
+				"Assert orderPetId": true,
+				"Assert orderQuantity": true,
+				"Valid JSON structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate id, petID, and quantiti fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Assert orderPetId": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Assert orderQuantity": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Valid JSON structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				117
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true,
+					"Content-Type header is application/json": true,
+					"Validate id, petID, and quantiti fields": true,
+					"Assert orderPetId": true,
+					"Assert orderQuantity": true,
+					"Valid JSON structure": true
+				}
+			]
+		},
+		{
+			"id": "5847ce19-ae54-4a00-8f87-f28c85324789",
+			"name": "Get info by orderID",
+			"url": "https://petstore.swagger.io/v2/store/order/1?Authorization =AUTH_VALUE",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true,
+				"Valid JSON structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Valid JSON structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				120
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true,
+					"Valid JSON structure": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1117,
+	"collection": {
+		"requests": [
+			{
+				"id": "823eda84-556c-4f4a-bf86-0b911f24a354",
+				"method": "POST"
+			},
+			{
+				"id": "940d2a99-3dcb-4d9f-81c8-ab7354ab212c",
+				"method": "GET"
+			},
+			{
+				"id": "545d0998-96a4-425d-b062-57eb602ce1b7",
+				"method": "PUT"
+			},
+			{
+				"id": "b629aa11-700a-4e90-bf2e-2ca3e79e893c",
+				"method": "GET"
+			},
+			{
+				"id": "a233d1bc-c7eb-43a9-bec1-6a524c6b9c32",
+				"method": "GET"
+			},
+			{
+				"id": "d1c27d88-c064-4132-8d02-d3d8e9e5a194",
+				"method": "POST"
+			},
+			{
+				"id": "24bfcb21-37a6-43dd-b2d0-2414f0098a43",
+				"method": "GET"
+			},
+			{
+				"id": "cd3b6247-7c43-4510-acc3-e740d734b761",
+				"method": "POST"
+			},
+			{
+				"id": "5847ce19-ae54-4a00-8f87-f28c85324789",
+				"method": "GET"
+			}
+		]
+	}
+}
